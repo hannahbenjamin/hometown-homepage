@@ -1,0 +1,196 @@
+body {
+    font-family: 'Rokkitt', serif;
+    background-image: linear-gradient(#8da9c4, #F7AE82);
+}
+
+.header-section {
+    text-align: center;
+    padding: 200px;
+    background-image: url("images/toronto-skyline.png");
+    background-size: cover;
+    background-position: center;
+    margin: -20px -20px 0 -20px;
+}
+
+#main-title {
+    color: white;
+    text-shadow: 0 0 30px black;
+    font-size: xx-large;
+}
+
+#main-description {
+    color: white;
+    font-family: 'Rokkitt', serif;
+    font-size: 21px;
+    background: #8da9c4;
+    width: 1000px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+#attractions-section {
+    text-align: center;
+    margin: -20px -20px 0 -20px;
+    padding: 15px;
+    color: white;
+}
+
+.options {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+}
+
+#cn-tower-img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("images/cn-tower.jpeg");
+    background-size: cover;
+}
+
+#cn-tower-img:hover {
+    background-image: url("images/cn-tower-edgewalk.jpeg");
+    background-position: right;
+}
+
+#rom-img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("images/rom.jpeg");
+    background-size: cover;
+    background-position: right;
+}
+
+#rom-img:hover {
+    background-image: url("images/rom-dino.jpeg");
+    background-position: left;
+}
+
+#ago-img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("images/ago.jpeg");
+    background-size: cover;
+    background-position: right;
+}
+
+#ago-img:hover {
+    background-image: url("images/ago-art.jpeg");
+}
+
+.description { 
+    font-weight: 200px;
+    font-size: large;
+    width: 400px;
+    text-align: center;
+}
+
+#retail-therapy-section {
+    text-align: center;
+    margin: -20px -20px 0 -20px;
+    padding: 15px;
+    color: white;
+}
+
+#bloor-yorkville-img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("images/bloor-yorkville-street.png");
+    background-size: cover;
+    background-position: left;
+}
+
+#bloor-yorkville-img:hover {
+    background-image: url("images/bloor-yorkville-flowers.jpeg");
+    background-position: right;
+}
+
+#eaton-center-img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("images/eaton-center-out.jpeg");
+    background-size: cover;
+    background-position: left;
+}
+
+#eaton-center-img:hover {
+    background-image: url("images/eaton-center-in.jpeg");
+}
+
+#queen-street-img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("images/queen-street-west.jpeg");
+    background-size: cover;
+    background-position: right;
+}
+
+#queen-street-img:hover {
+    background-image: url("images/graffiti-alley.jpeg");
+    background-position: left;
+}
+
+#local-markets-section {
+    text-align: center;
+    margin: -20px -20px 0 -20px;
+    padding: 15px;
+    color: white;
+}
+
+#st-lawrence-img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("images/st-lawrence-out.jpeg");
+    background-size: cover;
+}
+
+#st-lawrence-img:hover {
+    background-image: url("images/st-lawrence-in.webp");
+}
+
+#kensington-img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("images/kensington-market-street.jpeg");
+    background-size: cover;
+    background-position: right;
+}
+
+#kensington-img:hover {
+    background-image: url("images/kensington-market-music.jpeg");
+}
+
+#distillery-img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-image: url("images/distillery-district-sign.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#distillery-img:hover {
+    background-image: url("images/distillery-district-market.jpeg");
+}
