@@ -1,8 +1,7 @@
 body {
     font-family: 'Rokkitt', serif;
     background-image: linear-gradient(#8da9c4, #F7AE82);
-    max-width: 1700px;
-    width: 100%
+    background-size: cover;
 }
 
 .header-section {
@@ -10,23 +9,24 @@ body {
     padding: 200px;
     background-image: url("images/toronto-skyline.png");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+    background-repeat: no-repeat;
     margin: -20px -20px 0 -20px;
 }
 
 #main-title {
     color: white;
     text-shadow: 0 0 30px black;
-    font-size: xx-large;
+    font-size: 60px;
 }
 
 #main-description {
     color: white;
     font-family: 'Rokkitt', serif;
-    font-size: 21px;
+    font-size: 27px;
     background: #8da9c4;
-    width: 1000px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     border: none;
     border-radius: 30px;
     text-align: center;
@@ -37,12 +37,14 @@ body {
     margin: -20px -20px 0 -20px;
     padding: 15px;
     color: white;
+    font-size: 20px;
 }
 
 .options {
     text-align: center;
     display: flex;
     justify-content: space-around;
+    max-width: 100%;
 }
 
 a {
@@ -103,6 +105,7 @@ a {
     text-align: center;
     margin: -20px -20px 0 -20px;
     padding: 15px;
+    font-size: 20px;
     color: white;
 }
 
@@ -154,6 +157,7 @@ a {
     text-align: center;
     margin: -20px -20px 0 -20px;
     padding: 15px;
+    font-size: 20px;
     color: white;
 }
 
