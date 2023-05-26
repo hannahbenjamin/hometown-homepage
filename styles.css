@@ -44,7 +44,6 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-around;
-    max-width: 100%;
 }
 
 a {
@@ -96,7 +95,7 @@ a {
 
 .description { 
     font-weight: 200px;
-    font-size: large;
+    font-size: 20px;
     width: 400px;
     text-align: center;
 }
