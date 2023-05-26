@@ -2,6 +2,7 @@ body {
     font-family: 'Rokkitt', serif;
     background-image: linear-gradient(#8da9c4, #F7AE82);
     max-width: 1700px;
+    width: 100%
 }
 
 .header-section {
